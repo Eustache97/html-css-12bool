@@ -1,0 +1,21 @@
+.row{
+    width: 100%;
+}
+
+.box{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    /* debug */
+    background-color: #07779c;
+    border: 1px solid black;
+}
+
+.nested-box{
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    /* debug */
+    background-color: green;
+    border: 1px solid black;
+}
