@@ -1,4 +1,8 @@
-
+.container{
+    width: 50%;
+    max-width: 700px;
+    margin: 0 auto;
+}
 .row{
     width: 100%;
 }
@@ -10,16 +14,10 @@
     line-height: 40px;
     color: white;
     /* debug */
-    background-color: #07779c;
-    border: 1px solid white;
+    border: 1px solid var(--white);
 }
 
-.nested-box{
-    height: 40px;
-    width: 100%;
-    text-align: center;
-    color: white;
-    /* debug */
-    background-color: green;
-    border: 1px solid #07779c;
+.nested{
+    background-color: var(--green);
+    border: 1px solid var(--light-blue);
 }

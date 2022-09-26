@@ -1,3 +1,25 @@
+/* palette */
+.yellow{
+    background-color: var(--yellow);
+}
+.light-blue{
+    background-color: var(--light-blue);
+}
+.black{
+    background-color: var(--black);
+}
+.grey{
+    background-color: var(--grey);
+}
+/* palette */
+:root{
+    --yellow: #ffff00;
+    --light-blue: #08779c;
+    --black: #000;
+    --grey: #808080;
+    --white: #fff;
+    --green: #008000;
+}
 /* RESET */
 *{
     margin: 0;
